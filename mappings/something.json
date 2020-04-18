@@ -20,7 +20,7 @@
                 "headers": {
                     "Content-Type": "text/html; charset=UTF-8"
                 },
-                "bodyFileName": "test.html"
+                "bodyFileName": "level1.html"
             }
         },
         {
@@ -33,7 +33,7 @@
                 "headers": {
                     "Content-Type": "text/html; charset=UTF-8"
                 },
-                "bodyFileName": "test2.html"
+                "bodyFileName": "level1_1.html"
             }
         },
         {
