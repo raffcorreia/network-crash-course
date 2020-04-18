@@ -1,0 +1,79 @@
+{
+    "mappings": [
+        {
+            "request": {
+                "method": "GET",
+                "url": "/some/thing"
+            },
+            "response": {
+                "status": 200,
+                "statusMessage": "Everything was just fine!"
+            }
+        },
+        {
+            "request": {
+                "method": "GET",
+                "url": "/some/thing/again"
+            },
+            "response": {
+                "status": 200,
+                "headers": {
+                    "Content-Type": "text/html; charset=UTF-8"
+                },
+                "bodyFileName": "test.html"
+            }
+        },
+        {
+            "request": {
+                "method": "GET",
+                "url": "/some/thing/again/andAgain"
+            },
+            "response": {
+                "status": 200,
+                "headers": {
+                    "Content-Type": "text/html; charset=UTF-8"
+                },
+                "bodyFileName": "test2.html"
+            }
+        },
+        {
+            "request": {
+                "method": "GET",
+                "url": "/http"
+            },
+            "response": {
+                "status": 200,
+                "headers": {
+                    "Content-Type": "mage/png"
+                },
+                "bodyFileName": "images/HTTP.png"
+            }
+        },
+        {
+            "request": {
+                "method": "GET",
+                "url": "/ietf"
+            },
+            "response": {
+                "status": 200,
+                "headers": {
+                    "Content-Type": "mage/png"
+                },
+                "bodyFileName": "images/IETF.png"
+            }
+        },
+        {
+            "request": {
+                "method": "GET",
+                "url": "/w3c"
+            },
+            "response": {
+                "status": 200,
+                "headers": {
+                    "Content-Type": "mage/png"
+                },
+                "bodyFileName": "images/W3C.png"
+            }
+        }
+    ]
+}
