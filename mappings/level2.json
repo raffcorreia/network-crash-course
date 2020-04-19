@@ -1,0 +1,56 @@
+{
+    "mappings": [
+        {
+            "request": {
+                "method": "GET",
+                "url": "/level2"
+            },
+            "response": {
+                "status": 200,
+                "headers": {
+                    "Content-Type": "text/html; charset=UTF-8"
+                },
+                "bodyFileName": "level2.html"
+            }
+        },
+        {
+            "request": {
+                "method": "GET",
+                "urlPath": "/level2_result"
+            },
+            "response": {
+                "status": 200,
+                "headers": {
+                    "Content-Type": "text/html; charset=UTF-8"
+                },
+                "bodyFileName": "level2_result.html"
+            }
+        },
+        {
+            "request": {
+                "method": "GET",
+                "urlPath": "/level2_1"
+            },
+            "response": {
+                "status": 200,
+                "headers": {
+                    "Content-Type": "text/html; charset=UTF-8"
+                },
+                "bodyFileName": "level2_1.html"
+            }
+        },
+        {
+            "request": {
+                "method": "POST",
+                "urlPath": "/level2_1_result"
+            },
+            "response": {
+                "status": 200,
+                "headers": {
+                    "Content-Type": "text/html; charset=UTF-8"
+                },
+                "bodyFileName": "level2_1_result.html"
+            }
+        }
+    ]
+}

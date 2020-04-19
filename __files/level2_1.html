@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>
+            Submit a form level 2 using POST
+        </title>
+    </head>
+    <body>
+        <h1>Submit a form level 2</h1>
+        <form name="posrtForm" action="/nothing_happens" method="POST">
+            <label for="first_name">First name:</label>
+            <input type="text" id="first_name" name="first_name"><br><br>
+            <label for="last_name">Last name:</label>
+            <input type="text" id="last_name" name="last_name"><br><br>
+            <input type="submit" value="Submit">
+        </form>
+        <p>
+            After submitting this form go to http://localhost:8080/__admin/requests/unmatched and look for this string ""url" : "/nothing_happens"". This is the request that was sent to the server, check the "body" for values that you've sent.
+            The body was sent to the backend, but there was no backend present to respond properly.
+        </p>
+    </body>
+</html>
